@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
 <header>
     <h1>Payments</h1>
     <p>View your payment history.</p>
@@ -72,4 +75,5 @@
 </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

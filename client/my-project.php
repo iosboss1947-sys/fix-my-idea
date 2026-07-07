@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
     <header>
         <h1>My Projects</h1>
         <p>Manage and track all your uploaded projects.</p>
@@ -85,4 +88,5 @@
     </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

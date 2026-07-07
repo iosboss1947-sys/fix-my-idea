@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
 <header>
     <h1>Invoices</h1>
     <p>Download and view your project invoices.</p>
@@ -63,4 +66,5 @@
 </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

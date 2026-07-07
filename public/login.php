@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Fix My Ideas</title>
 </head>
-<body>
+
+<body>                   <?php include("includes/header.php"); ?
     <div class="login-box"> 
 <h1>fix my Ideas</h1><p>
 login whith your account</p>
@@ -19,4 +20,6 @@ login whith your account</p>
 </div>
     
 
-</body></html>
+
+                 <?php include("includes/footer.php"); ?</body>
+                 </html>

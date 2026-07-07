@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
 <header>
     <h1>Settings</h1>
     <p>Manage your account preferences.</p>
@@ -97,4 +100,5 @@
 </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

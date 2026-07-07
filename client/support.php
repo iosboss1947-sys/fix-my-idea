@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
 <header>
     <h1>Support Center</h1>
     <p>We're here to help you.</p>
@@ -91,4 +94,5 @@
 </main>
 
 
-.</body></html>
+.<?php include("../includes/footer.php"); ?>
+</body></html>

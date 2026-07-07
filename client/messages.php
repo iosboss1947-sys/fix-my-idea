@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
 <header>
     <h1>Messages</h1>
 </header>
@@ -67,4 +70,5 @@
 </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

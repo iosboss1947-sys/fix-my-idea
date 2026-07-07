@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
     <header>
         <h1>Upload New Project</h1>
         <p>Fill in the project details below.</p>
@@ -114,4 +117,5 @@
     </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

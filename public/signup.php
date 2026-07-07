@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup-Fix MyIdea</title>
 </head>
-<body>
+
+<body>                   <?php include("includes/header.php"); ?
     <div class="signup-container">
 <h1>fIX My Idea</h1>
 <h3>create a account</h3>
@@ -23,4 +24,5 @@
 </button>
 </div>
 
-</div></body></html>
+</div>
+                 <?php include("includes/footer.php"); ?</body></html>

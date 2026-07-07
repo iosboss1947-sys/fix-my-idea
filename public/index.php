@@ -5,7 +5,8 @@
     <title>Fix My Idea</title>
     
 </head>
-<body>
+
+<body>                   <?php include("includes/header.php"); ?
  <header class="navbar">
 <div class="logo"> 
     Fix My Idea
@@ -71,4 +72,7 @@
         </div>
    </section>
 
-</body></html>
+
+                  <?php include("includes/footer.php");
+                   </body>
+                  </html>

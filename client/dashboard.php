@@ -5,7 +5,11 @@
     <title>Client Dashboard | EditPro</title>
 </head>
 
-<body>
+
+
+<body>      
+                 <?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?>
 
     <!-- Sidebar -->
     <aside>
@@ -128,4 +132,5 @@
     </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>

@@ -6,6 +6,9 @@
 </head>
 <body>
 
+<?php include("../includes/header.php"); ?>
+<?php include("../includes/sidebar-client.php"); ?><?php include("includes/header.php"); ?
+
 <header>
     <h1>Project Details</h1>
     <a href="my-projects.html">← Back to My Projects</a>
@@ -109,4 +112,5 @@
 </main>
 
 
+<?php include("../includes/footer.php"); ?>
 </body></html>
