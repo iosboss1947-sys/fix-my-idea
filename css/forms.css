@@ -1,0 +1,156 @@
+/* ==========================================
+   EditPro - Forms
+========================================== */
+
+form{
+
+    background:var(--card);
+
+    padding:30px;
+
+    border-radius:16px;
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+}
+
+/* Labels */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    color:var(--light);
+
+    font-weight:500;
+
+}
+
+/* Inputs */
+
+input,
+textarea,
+select{
+
+    width:100%;
+
+    padding:14px 16px;
+
+    margin-bottom:20px;
+
+    background:var(--bg-secondary);
+
+    color:var(--white);
+
+    border:1px solid var(--border);
+
+    border-radius:10px;
+
+    transition:var(--transition);
+
+    font-size:15px;
+
+}
+
+/* Focus */
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 12px rgba(229,9,20,.35);
+
+}
+
+/* Placeholder */
+
+input::placeholder,
+textarea::placeholder{
+
+    color:var(--gray);
+
+}
+
+/* Textarea */
+
+textarea{
+
+    resize:vertical;
+
+    min-height:120px;
+
+}
+
+/* File Input */
+
+input[type="file"]{
+
+    padding:10px;
+
+}
+
+/* Checkbox */
+
+input[type="checkbox"]{
+
+    width:auto;
+
+    margin-right:8px;
+
+}
+
+/* Submit Buttons */
+
+button,
+input[type="submit"],
+input[type="reset"]{
+
+    padding:14px 24px;
+
+    border-radius:10px;
+
+    background:var(--primary);
+
+    color:var(--white);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+    margin-right:10px;
+
+}
+
+/* Hover */
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+
+    background:var(--primary-hover);
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(229,9,20,.3);
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    form{
+
+        padding:20px;
+
+    }
+
+}

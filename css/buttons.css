@@ -1,0 +1,159 @@
+/* ==========================================
+   EditPro - Buttons
+========================================== */
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:8px;
+
+    padding:12px 24px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:var(--transition);
+
+}
+
+/* Primary */
+
+.btn-primary{
+
+    background:var(--primary);
+
+    color:var(--white);
+
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-hover);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(229,9,20,.35);
+
+}
+
+/* Secondary */
+
+.btn-secondary{
+
+    background:#2b2b2b;
+
+    color:var(--white);
+
+}
+
+.btn-secondary:hover{
+
+    background:#3b3b3b;
+
+}
+
+/* Success */
+
+.btn-success{
+
+    background:var(--success);
+
+    color:#fff;
+
+}
+
+.btn-success:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* Warning */
+
+.btn-warning{
+
+    background:var(--warning);
+
+    color:#000;
+
+}
+
+.btn-warning:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* Danger */
+
+.btn-danger{
+
+    background:var(--danger);
+
+    color:#fff;
+
+}
+
+.btn-danger:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* Info */
+
+.btn-info{
+
+    background:var(--info);
+
+    color:#fff;
+
+}
+
+.btn-info:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* Small */
+
+.btn-sm{
+
+    padding:8px 16px;
+
+    font-size:13px;
+
+}
+
+/* Large */
+
+.btn-lg{
+
+    padding:16px 30px;
+
+    font-size:18px;
+
+}
+
+/* Full Width */
+
+.btn-block{
+
+    width:100%;
+
+}

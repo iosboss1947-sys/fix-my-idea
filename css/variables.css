@@ -1,0 +1,58 @@
+/* ==========================================
+   Fix My Idea - Netflix Theme Variables
+========================================== */
+
+:root{
+
+    /* Primary Colors */
+
+    --primary:#E50914;
+    --primary-hover:#ff1f2d;
+
+    /* Background Colors */
+
+    --bg:#141414;
+    --bg-secondary:#1b1b1b;
+    --card:#202020;
+    --sidebar:#0d0d0d;
+    --navbar:#111111;
+
+    /* Text Colors */
+
+    --white:#ffffff;
+    --light:#d1d1d1;
+    --gray:#9b9b9b;
+
+    /* Border */
+
+    --border:#2f2f2f;
+
+    /* Status */
+
+    --success:#00c853;
+    --warning:#ffb300;
+    --danger:#ff1744;
+    --info:#2979ff;
+
+    /* Border Radius */
+
+    --radius-sm:8px;
+    --radius-md:12px;
+    --radius-lg:20px;
+
+    /* Shadow */
+
+    --shadow:
+    0 5px 20px rgba(0,0,0,.4);
+
+    /* Transition */
+
+    --transition:.3s ease;
+
+    /* Font */
+
+    --font:
+    "Poppins",
+    sans-serif;
+
+}

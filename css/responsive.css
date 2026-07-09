@@ -1,0 +1,118 @@
+/* ==========================================
+   EditPro - Responsive Design
+========================================== */
+
+/* Large Screens */
+
+@media (max-width:1200px){
+
+    main{
+        margin-left:220px;
+        padding:20px;
+    }
+
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* Tablets */
+
+@media (max-width:992px){
+
+    aside{
+        width:90px;
+    }
+
+    aside h2{
+        display:none;
+    }
+
+    aside nav ul li a{
+        justify-content:center;
+        padding:16px;
+    }
+
+    main{
+        margin-left:90px;
+    }
+
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    header{
+        flex-wrap:wrap;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    main{
+        margin-left:0;
+        padding:15px;
+    }
+
+    aside{
+        position:fixed;
+        left:-260px;
+        width:260px;
+        transition:.3s;
+        z-index:1000;
+    }
+
+    aside.active{
+        left:0;
+    }
+
+    header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    table{
+        min-width:700px;
+    }
+
+    .table-container{
+        overflow-x:auto;
+    }
+
+    form{
+        padding:20px;
+    }
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+    h1{
+        font-size:24px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+    input,
+    select,
+    textarea{
+        font-size:14px;
+    }
+
+}

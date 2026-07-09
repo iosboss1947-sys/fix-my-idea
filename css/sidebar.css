@@ -1,0 +1,137 @@
+/* ==========================================
+   EditPro - Netflix Style Sidebar
+========================================== */
+
+aside{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:260px;
+
+    height:100vh;
+
+    background:var(--sidebar);
+
+    border-right:1px solid var(--border);
+
+    padding:25px;
+
+    overflow-y:auto;
+
+}
+
+/* Logo */
+
+aside h2{
+
+    color:var(--primary);
+
+    text-align:center;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:40px;
+
+}
+
+/* Navigation */
+
+aside nav ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+/* Menu Items */
+
+aside nav ul li a{
+
+    display:flex;
+
+    align-items:center;
+
+    padding:15px 18px;
+
+    color:var(--light);
+
+    border-radius:12px;
+
+    transition:var(--transition);
+
+}
+
+/* Hover */
+
+aside nav ul li a:hover{
+
+    background:var(--primary);
+
+    color:var(--white);
+
+    transform:translateX(8px);
+
+}
+
+/* Active Menu */
+
+aside nav ul li a.active{
+
+    background:var(--primary);
+
+    color:var(--white);
+
+}
+
+/* Main Content */
+
+main{
+
+    margin-left:260px;
+
+    padding:30px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    aside{
+
+        width:80px;
+
+        padding:15px;
+
+    }
+
+    aside h2{
+
+        font-size:18px;
+
+    }
+
+    aside nav ul li a{
+
+        justify-content:center;
+
+        padding:15px;
+
+    }
+
+    main{
+
+        margin-left:80px;
+
+    }
+
+}
